@@ -102,7 +102,6 @@ Bootstrap Overrides
 	background-color: rgb(75, 187, 133);
 	background: none;
 	color: #ffffff !important;
-	/* font-variant: small-caps; */
 	text-transform: uppercase;
 }
 
@@ -190,7 +189,7 @@ Bootstrap Overrides
 Layout and Custom Styles
 ************************** */
 
-/* Main Content Area */
+/* Main */
 .main {
 
 	background: none;
