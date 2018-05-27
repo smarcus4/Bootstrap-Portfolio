@@ -92,7 +92,7 @@ Bootstrap Overrides
 .navbar {
 	border: none;
 	background: none;
-	padding: 20px 0;
+	padding: 20px auto;
 }
 
 .navbar-brand {
@@ -209,6 +209,11 @@ Layout and Custom Styles
 	margin-bottom: 0px;
 }
 
+.img-responsive{
+	width: 500px;
+	height: 300px;
+}
+
 .project-thumb {
 	position: relative;
 	max-width: 640px;
@@ -217,6 +222,12 @@ Layout and Custom Styles
 
 .project-thumb img.top:hover {
 	opacity: 0.3;
+}
+.project-thumb img {
+	border: 2px solid rgb(62, 129, 177);
+	position: absolute;
+	left: 0;
+ 	transition: opacity .4s ease-out;
 }
 
 img#project1 {
